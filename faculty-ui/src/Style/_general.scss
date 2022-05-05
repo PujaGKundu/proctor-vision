@@ -1,0 +1,111 @@
+$black: #131415;
+$black2: #232527;
+$black3: #484c50;
+$cyan: #38f3ff;
+$white: #ffffff;
+$green: #a7f93f;
+$red: #ff5555;
+$yellow: #ffdb5a;
+$black50: rgba(19, 20, 21, 0.5);
+$white50: rgba(255, 255, 255, 0.5);
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color: $black;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  color: $white;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.ai-start {
+  align-items: flex-start;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-even {
+  justify-content: space-evenly;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.div-display {
+  background-color: $black2;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 5rem;
+  width: 200px;
+  margin-top: 5rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1fr;
+}
+
+.grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1fr;
+}
+
+.bottom {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.margin-top {
+  margin-top: 1rem;
+}
+
+.margin-left {
+  margin-left: 1rem;
+}
+
+.green {
+  color: $green;
+}
+
+.red {
+  color: $red;
+}
+
+.center {
+  text-align: center;
+}

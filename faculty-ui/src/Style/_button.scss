@@ -1,0 +1,58 @@
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-middle {
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn-small {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: $white;
+  color: $black;
+  border: 1px solid $white;
+  &:hover {
+    background-color: $cyan;
+    border: 1px solid $cyan;
+  }
+  &:disabled {
+    background-color: $white50;
+    border: 1px solid $white50;
+  }
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid $white;
+  color: $white;
+  font-size: 1rem;
+  &:hover {
+    color: $cyan;
+    border: 1px solid $cyan;
+  }
+  &:disabled {
+    color: $black3;
+  }
+}
+
+.btn-text {
+  background-color: transparent;
+  border: none;
+  color: $white;
+  font-size: 1rem;
+  &:hover {
+    color: $cyan;
+  }
+  &:disabled {
+    color: $black3;
+  }
+}

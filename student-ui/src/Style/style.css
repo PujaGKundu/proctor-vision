@@ -1,0 +1,672 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #131415;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ai-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.jc-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jc-even {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.div-display {
+  background-color: #232527;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 5rem;
+  width: 200px;
+  margin-top: 5rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 1fr;
+}
+
+.grid-5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  gap: 1fr;
+}
+
+.bottom {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.margin-top {
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-middle {
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn-small {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #131415;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #38f3ff;
+}
+
+.btn-primary:disabled {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-text {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.btn-text:hover {
+  color: #38f3ff;
+}
+
+.btn-text:disabled {
+  color: #484c50;
+}
+
+.header {
+  background-color: #232527;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  padding: 0.8rem;
+}
+
+.header .search {
+  background-color: #131415;
+  padding: 0.2rem 0.5rem;
+  text-align: left;
+  margin: 0.3rem;
+  width: 500px;
+  margin-left: 1.5rem;
+  font-size: 0.8rem;
+  color: #484c50;
+}
+
+.header i {
+  margin-right: 1rem;
+}
+
+.spash {
+  width: 800px;
+  background-color: #232527;
+  color: #ffffff;
+  margin: auto;
+  padding: 2rem 3rem;
+  margin-top: 8rem;
+}
+
+.spash h1 {
+  font-size: 2.3rem;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+  font-weight: 500;
+}
+
+.login img {
+  margin-bottom: 2rem;
+}
+
+.login input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.login p {
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.onboard {
+  text-align: center;
+}
+
+.onboard img {
+  width: 150px;
+}
+
+.onboard h3 {
+  font-size: 0.8rem;
+  margin: 2rem 0;
+}
+
+.onboard .circle {
+  width: 5px;
+  height: 5px;
+  background-color: #484c50;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.onboard .active {
+  width: 12px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.onboard p {
+  color: #484c50;
+  font-size: 0.7rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.home {
+  width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.home h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.home h3 {
+  font-size: 0.9rem;
+}
+
+.home h5 {
+  font-size: 0.7rem;
+  color: #484c50;
+}
+
+.home .home-main {
+  background-color: #232527;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.home .home-main section {
+  background-color: #484c50;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.home .home-main section .circle {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: 1rem;
+}
+
+.home .home-main section i {
+  margin-left: 1rem;
+}
+
+.home .home-last {
+  margin-top: 4rem;
+}
+
+.home .home-last img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.home .empty-home {
+  text-align: center;
+}
+
+.home .empty-home h2 {
+  font-size: 1.2rem;
+  color: #484c50;
+}
+
+.check {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.check i {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.check .h1 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.check h3 {
+  font-size: 0.9rem;
+}
+
+.check time {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.check .check-main {
+  margin: 1rem 0;
+}
+
+.check .check-main img {
+  width: 350px;
+}
+
+.check .check-main p {
+  margin-bottom: 0.8rem;
+}
+
+.check .check-main .tick {
+  color: #a7f93f;
+}
+
+.check .check-main .cross {
+  color: #ff5555;
+}
+
+.check .content {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: last baseline right;
+}
+
+.setting {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.setting i {
+  font-size: 1.8rem;
+}
+
+.setting h1 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.setting h4 {
+  font-size: 0.8rem;
+}
+
+.setting p {
+  font-size: 0.8rem;
+}
+
+.setting p i {
+  font-size: 0.8rem;
+  margin-right: 0.8rem;
+  text-decoration: underline;
+}
+
+.setting h2 {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.setting .general {
+  background-color: #232527;
+  padding: 1rem;
+}
+
+.setting .general p {
+  text-decoration: underline;
+  margin-right: 1rem;
+}
+
+.setting .general i {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.setting .general h3 {
+  font-size: 0.7rem;
+  margin: 0.8rem 0;
+}
+
+.setting .general hr {
+  color: rgba(255, 255, 255, 0.5);
+  size: 1px;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  width: 950px;
+}
+
+.exam {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.exam h2 {
+  margin-top: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.exam time {
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+}
+
+.exam .exam-div {
+  background-color: #232527;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.exam .exam-div p {
+  font-size: 0.8rem;
+}
+
+.exam .exam-div img {
+  width: 200px;
+  margin-top: 1rem;
+}
+
+.exam .exam-div .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  margin-right: 1rem;
+}
+
+.exam .exam-div .active {
+  background-color: #ffffff;
+}
+
+.exam aside {
+  margin: 0 1rem;
+  position: relative;
+}
+
+.exam aside i {
+  margin: 0 0.3rem;
+}
+
+.exam aside p {
+  color: #ffffff;
+  background-color: #232527;
+  padding: 0.3rem 0.8rem;
+  margin: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.exam aside .white {
+  background-color: #ffffff;
+  color: #131415;
+}
+
+.exam aside .green {
+  background-color: #a7f93f;
+  color: #131415;
+}
+
+.exam aside .red {
+  background-color: #ff5555;
+  color: #131415;
+}
+
+.exam aside .grid-5 {
+  margin-top: 1rem;
+}
+
+.exam aside h5 {
+  font-size: 0.6rem;
+  margin: 0 0.5rem;
+}
+
+.exam aside .dull {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.exam aside .absolute {
+  position: absolute;
+  right: -3.8rem;
+}
+
+.exam aside .absolute img {
+  width: 22rem;
+}
+
+.exam aside .a-1 {
+  bottom: -14rem;
+}
+
+.exam aside .a-2 {
+  bottom: -20rem;
+}
+
+.exam aside .a-3 {
+  bottom: -26rem;
+}
+/*# sourceMappingURL=style.css.map */

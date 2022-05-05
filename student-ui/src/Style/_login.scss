@@ -1,0 +1,23 @@
+.login {
+  img {
+    margin-bottom: 2rem;
+  }
+  input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid $white;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    color: $white50;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  p {
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 0.5rem;
+    margin-bottom: 3rem;
+  }
+}

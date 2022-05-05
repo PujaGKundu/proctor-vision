@@ -1,0 +1,87 @@
+.exam {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  h2 {
+    margin-top: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+  time {
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+  }
+  .exam-div {
+    background-color: $black2;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    p {
+      font-size: 0.8rem;
+    }
+    img {
+      width: 200px;
+      margin-top: 1rem;
+    }
+    .circle {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 2px solid $white;
+      margin-right: 1rem;
+    }
+    .active {
+      background-color: $white;
+    }
+  }
+  aside {
+    margin: 0 1rem;
+    position: relative;
+    i {
+      margin: 0 0.3rem;
+    }
+    p {
+      color: $white;
+      background-color: $black2;
+      padding: 0.3rem 0.8rem;
+      margin: 0.3rem;
+      font-size: 0.8rem;
+    }
+    .white {
+      background-color: $white;
+      color: $black;
+    }
+    .green {
+      background-color: $green;
+      color: $black;
+    }
+    .red {
+      background-color: $red;
+      color: $black;
+    }
+    .grid-5 {
+      margin-top: 1rem;
+    }
+    h5 {
+      font-size: 0.6rem;
+      margin: 0 0.5rem;
+    }
+    .dull {
+      color: $white50;
+    }
+    .absolute {
+      position: absolute;
+      right: -3.8rem;
+      img {
+        width: 22rem;
+      }
+    }
+    .a-1 {
+      bottom: -14rem;
+    }
+    .a-2 {
+      bottom: -20rem;
+    }
+    .a-3 {
+      bottom: -26rem;
+    }
+  }
+}

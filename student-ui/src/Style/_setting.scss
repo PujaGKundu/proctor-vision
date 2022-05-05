@@ -1,0 +1,51 @@
+.setting {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  i {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  h4 {
+    font-size: 0.8rem;
+  }
+  p {
+    font-size: 0.8rem;
+    i {
+      font-size: 0.8rem;
+      margin-right: 0.8rem;
+      text-decoration: underline;
+    }
+  }
+  h2 {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .general {
+    background-color: $black2;
+    padding: 1rem;
+    p {
+      text-decoration: underline;
+      margin-right: 1rem;
+    }
+    i {
+      font-size: 1rem;
+      margin-right: 1rem;
+    }
+    h3 {
+      font-size: 0.7rem;
+      margin: 0.8rem 0;
+    }
+    hr {
+      color: $white50;
+      size: 1px;
+      align-items: right;
+      width: 950px;
+    }
+  }
+}

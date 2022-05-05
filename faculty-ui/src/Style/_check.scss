@@ -1,0 +1,43 @@
+.check {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  i {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+  .h1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: $white;
+    text-decoration: none;
+  }
+  h3 {
+    font-size: 0.9rem;
+  }
+  time {
+    font-size: 0.6rem;
+    color: $white50;
+  }
+  .check-main {
+    margin: 1rem 0;
+    img {
+      width: 350px;
+    }
+    p {
+      margin-bottom: 0.8rem;
+    }
+    .tick {
+      color: $green;
+    }
+    .cross {
+      color: $red;
+    }
+  }
+
+  .content {
+    margin-top: 2rem;
+    display: flex;
+    place-content: last baseline right;
+  }
+}

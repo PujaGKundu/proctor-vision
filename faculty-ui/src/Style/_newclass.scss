@@ -1,0 +1,33 @@
+.newClass {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: $black2;
+  input {
+    width: 10rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid $white;
+    padding: 0.3rem 0.6rem;
+    color: $white50;
+    display: block;
+    margin: 1rem 0;
+  }
+  .upload {
+    margin: 3.2rem 1rem;
+    text-align: left;
+    i {
+      margin-right: 0.5rem;
+    }
+    h3 {
+      font-size: 0.8rem;
+      margin-right: 1.2rem;
+    }
+    button {
+      margin-right: 1rem;
+    }
+  }
+}
